@@ -12,3 +12,5 @@ Underpinning all of our work is an emphasis on the human experience and inclusiv
 practices. 
 
 The lab is located in Watson 232. 
+
+![Data Vis Lab members](./assets/images/ddvl.jpg)
