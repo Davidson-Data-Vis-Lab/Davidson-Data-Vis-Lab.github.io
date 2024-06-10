@@ -4,7 +4,7 @@ title: People
 permalink: /people
 ---
 
-The Davidson Data Vis Lab group members for 2024 are [Yumna Ahmed](/people#yumna-ahmed-25), [Katherine Hu](/people#katherine-hu-25), [David Yoder](/people#david-yoder-26), and [Dr. Katy Williams](/people#dr-katy-williams-17).
+The Davidson Data Vis Lab group members for 2024 are [Yumna Ahmed](/people#yumna-ahmed-25-github), [Katherine Hu](/people#katherine-hu-25-github), [David Yoder](/people#david-yoder-26-github), and [Dr. Katy Williams](/people#dr-katy-williams-17-personal-site).
 
 ## Yumna Ahmed ('25) ([GitHub](https://github.com/yuahmed))
 
