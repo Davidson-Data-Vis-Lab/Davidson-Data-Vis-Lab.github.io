@@ -21,8 +21,9 @@
   }
 }
 
-#photo-div img {
-  max-width: 50px;
+.small-image {
+  @include small;
+  max-width: 200px;
 }
 
 .cur-btn {
