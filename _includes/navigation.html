@@ -1,0 +1,10 @@
+<nav>
+    <!-- <a href="/" class="btn">Home</a>
+    <a href="/people.html" class="btn">People</a>
+    <a href="/projects.html" class="btn">Projects</a> -->
+  <nav>
+    {% for item in site.data.navigation %}
+      <a href="{{ item.link }}" class="btn">{{ item.name }}</a>
+    {% endfor %}
+  </nav>
+  </nav>
