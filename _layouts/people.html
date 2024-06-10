@@ -11,6 +11,11 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
+    <style>
+      #people-content img {
+        max-width: 250px;
+      }
+    </style>
   </head>
   <body>
     <a id="skip-to-content" href="#content">Skip to the content.</a>
@@ -28,9 +33,9 @@
     </header>
 
     <main id="content" class="main-content" role="main">
-
+      <div id="people-content">
         {{ content }}
-
+      </div>
       <footer class="site-footer">
         <table>
           <tbody>
