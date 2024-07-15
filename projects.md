@@ -7,6 +7,7 @@ permalink: /projects
 Serendipitous events repo: [here](https://github.com/Davidson-Data-Vis-Lab/Serendipitious-Events)
 
 # Vis + AI
+Overview of all of the AI-generated visualizations from our dataset test suite can be found [here](datavis-ai-site.netlify.app)
 
 # Vis + Timelines
 
