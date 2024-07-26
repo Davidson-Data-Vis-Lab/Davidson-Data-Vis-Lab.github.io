@@ -17,7 +17,7 @@ I study Computer Science & Digital and Screen Media Studies double major. Some c
 Meanwhile , I also have research experience working in machine learning  with ALPhA (2023), and in info vis with the Data Vis Lab (2024; in progress). Personally, I enjoy working in interdisciplinary fields, such as human computer interaction - for example, I enjoy questions such as “How do communities around the globe interact with technology? How have such interactions shaped their society?” So far, I have thoroughly enjoyed my projects and learnt valuable skills, which I am now considering to further improve by pursuing graduate studies. 
 
 
-## Katherine Hu ('25) ([GitHub](https://github.com/KatherineHu-2025))
+## Katherine Hu ('25) ([Personal Website](https://www.yangkatherinehu.com/))
 
 ![Katherine Hu](./assets/images/kahu.jpg)  
 
