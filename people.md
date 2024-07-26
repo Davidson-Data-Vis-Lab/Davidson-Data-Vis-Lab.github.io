@@ -25,7 +25,7 @@ Hi, I’m Katherine! I’m an international student from Shanghai, China, majori
 During my sophomore year, I worked as an embedded tutor for CSC121: Programming and Problem Solving, and for one semester, I tutored CSC321: Analysis of Algorithms. These experiences enhanced my problem-solving and debugging skills. In the summer of my sophomore year, I conducted research on concurrent data structures with Dr. Mendes, and I am currently working in the Data Visualization Lab with Dr. Williams. I view Computer Science as a versatile toolbox that intersects with all my areas of interest, enabling me to create fascinating tools across various fields. I am particularly captivated by practical applications, as I can observe tangible improvements at every step. Previously, I have built machine learning models to recognize American Sign Language letters and developed a classical music concert database with a front-end website.
 In my spare time, I enjoy attending musicals and have been taking singing classes since my sophomore year. I also love traveling, as it allows me to learn about different cultures, meet new people, and taste local cuisine.
 
-## David Yoder ('26) ([GitHub](https://yoder.ing))
+## David Yoder ('26) ([Personal Site](https://yoder.ing))
 
 ![David Yoder](./assets/images/dayoder.jpg) 
 
