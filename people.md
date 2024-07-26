@@ -9,6 +9,8 @@ The Davidson Data Vis Lab group members for 2024 are [Yumna Ahmed](/people#yumna
 
 ## Yumna Ahmed ('25) ([GitHub](https://github.com/yuahmed))
 
+![Github: yuahmed](./assets/images/github-mark.png) [yuahmed](https://github.com/yuahmed)
+
 ![Yumna Ahmed](./assets/images/yuahmed.jpg){:.small-image}  
 
 I am Yumna F. Ahmed, and for me home is in Karachi, Pakistan. I am a rising senior at Davidson College, NC, USA. I found Davidson College as part of my search for Liberal Art institutions. Even though it had not been among my top 3 choices, I find myself very happy to be here!
@@ -19,6 +21,8 @@ Meanwhile , I also have research experience working in machine learning  with AL
 
 ## Katherine Hu ('25) ([Personal Website](https://www.yangkatherinehu.com/))
 
+![Github: KatherineHu-2025](./assets/images/github-mark.png)  [KatherineHu-2025](https://github.com/KatherineHu-2025)
+
 ![Katherine Hu](./assets/images/kahu.jpg)  
 
 Hi, I’m Katherine! I’m an international student from Shanghai, China, majoring in Computer Science with a minor in Mathematics. Initially, I planned to study Biology during my freshman year, but I discovered a strong passion for Computer Science while taking Data Structures. This led me to declare Computer Science as my major.
@@ -26,6 +30,8 @@ During my sophomore year, I worked as an embedded tutor for CSC121: Programming 
 In my spare time, I enjoy attending musicals and have been taking singing classes since my sophomore year. I also love traveling, as it allows me to learn about different cultures, meet new people, and taste local cuisine.
 
 ## David Yoder ('26) ([Personal Site](https://yoder.ing))
+
+![Github: yodering](./assets/images/github-mark.png)  [yodering](https://github.com/yodering)
 
 ![David Yoder](./assets/images/dayoder.jpg) 
 
@@ -37,6 +43,8 @@ Concord, NC is home. I’ve lived here all my life. My parents attended Davidson
 
 
 ## Dr. Katy Williams ('17) ([personal site](https://kawilliams.github.io/))
+
+![Github: kawilliams](./assets/images/github-mark.png) [kawilliams](https://github.com/kawilliams)
 
 ![Katy Williams](./assets/images/kawilliams.jpg) 
 

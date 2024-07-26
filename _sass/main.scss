@@ -26,6 +26,11 @@
   max-width: 200px;
 }
 
+.github-logo {
+  @include small;
+  max-width: 4px;
+}
+
 .cur-btn {
     display: inline-block;
     margin-bottom: 1rem;
