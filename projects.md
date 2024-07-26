@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects
 ---
-# Vis + Serendipity
+# [Vis + Serendipity](/vis+serendipity)
 Serendipitous events repo: [here](https://github.com/Davidson-Data-Vis-Lab/Serendipitious-Events)
 
 # Vis + AI
