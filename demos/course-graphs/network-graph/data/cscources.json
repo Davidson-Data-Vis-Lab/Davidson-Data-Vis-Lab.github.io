@@ -1,0 +1,178 @@
+{
+  "nodes": [
+    {
+      "id": "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209), CSC 240(=PHY 240)",
+      "group": 1,
+      "description": "An introduction to computer science and structured programming, including algorithmic thinking, using control structures, essential data structures, creating functions, recursion, and object-oriented programming.\n\nSatisfies the Mathematical and Quantitative Thought distribution requirement.\nSatisfies a requirement in the Data Science interdisciplinary minor.\n\nPrerequisites & Notes:\nNot open to students with credit for CSC 120 (= DIG 120), CSC 200 (=PHY 200), or CSC 209 (= BIO 209)."
+    },
+    {
+        "id": "MAT 111, MAT112",
+        "group":2,
+        "description":"TO be filled"
+    },
+    {
+        "id":"MAT 150",
+        "group":2,
+        "description":"TO be filled"
+    },
+    {
+        "id":"MAT 140",
+        "group":2,
+        "description":"TO be filled"
+    },
+    {
+        "id":"MAT 160",
+        "group":2,
+        "description":"TO be filled"
+    },
+    {
+        "id":"MAT 113",
+        "group":2,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 357",
+        "group":5,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 351",
+        "group":5,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 353",
+        "group":5,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 359",
+        "group":5,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 210",
+        "group":4,
+        "description":"To be filled"
+    },
+    {
+        "id":"DIG 245",
+        "group":1,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 362",
+        "group":4,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 363",
+        "group":4,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 361",
+        "group":4,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 370*",
+        "group":4,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 371*",
+        "group":4,
+        "description":"To be filled"
+    },
+    {
+        "id":"MAT 320",
+        "group":6,
+        "description":"To be filled"
+    },
+    {
+        "id":"MAT 325",
+        "group":6,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 324",
+        "group":6,
+        "description":"To be filled"
+    },
+    {
+        "id":"MAT 315",
+        "group":7,
+        "description":"To be filled"
+    },
+    {
+        "id":"MAT 235",
+        "group":2,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 312",
+        "group":7,
+        "description":"To be filled"
+    },
+    {
+        "id":"CSC 322",
+        "group":7,
+        "description":"To be filled"
+    },
+
+    {
+      "id": "CSC 221",
+      "group": 3,
+      "description": "A study of abstract data types and supporting data structures, including arrays, linked lists, binary search trees, and hash tables. Also covers sorting, searching, and algorithm efficiency.\n\nCounts toward CS and Math majors/minors.\nSatisfies the Mathematical and Quantitative Thought distribution requirement.\n\nPrerequisites & Notes:\nCSC 121, 200, 209, or permission of instructor."
+    },
+    {
+      "id": "CSC 250",
+      "group": 3,
+      "description": "Introduction to how digital computers are built and how high-level code is translated into machine code. Topics include logic gates, memory, hardware, and the C programming language.\n\nDoes not carry Mathematics major credit.\n\nPrerequisites & Notes:\nCSC 121-level programming experience."
+    },
+    {
+      "id": "CSC 220(=MAT 220)",
+      "group": 3,
+      "description": "An introduction to proof techniques relevant to CS. Topics include recursion, induction, logic, combinatorics, and graph theory.\n\nCounts toward CS and Math majors/minors.\nSatisfies the Mathematical and Quantitative Thought distribution requirement.\n\nPrerequisites & Notes:\nMAT 140, 150, or 160 and CSC 121-level programming."
+    },
+    {
+      "id": "CSC 321",
+      "group": 3,
+      "description": "Advanced algorithm design and analysis. Topics include greedy, divide-and-conquer, dynamic programming, complexity, and NP-completeness.\n\nCounts toward CS and Math majors/minors.\n\nPrerequisites & Notes:\nCSC 221 and CSC 220 or permission of instructor."
+    }
+  ],
+  "links": [
+    { "source": "MAT 111, MAT112", "target": "MAT 113", "value": 1 },
+    { "source": "MAT 111, MAT112", "target": "MAT 140", "value": 1 },
+    { "source": "MAT 113", "target": "MAT 160", "value": 1 },
+    { "source": "MAT 113", "target": "MAT 150", "value": 1 },
+    { "source": "MAT 150", "target": "CSC 210", "value": 1 },
+    { "source": "MAT 140", "target": "CSC 210", "value": 1 },
+    { "source": "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209), CSC 240(=PHY 240)", "target": "CSC 250", "value": 1 },
+    { "source": "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209), CSC 240(=PHY 240)", "target": "CSC 221", "value": 1 },
+    { "source": "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209), CSC 240(=PHY 240)", "target": "CSC 220(=MAT 220)", "value": 1 },
+    { "source": "MAT 150", "target": "MAT 235", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 321", "value": 1 },
+    { "source": "CSC 220(=MAT 220)", "target": "CSC 321", "value": 1 },
+    { "source": "MAT 235", "target": "MAT 315", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 351", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 359", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 353", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 357", "value": 1 },
+    { "source": "CSC 250", "target": "CSC 351", "value": 1 },
+    { "source": "CSC 250", "target": "CSC 359", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 322", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 312", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 371*", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 362", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 363", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 370*", "value": 1 },
+    { "source": "CSC 221", "target": "CSC 361", "value": 1 },
+    { "source": "DIG 245", "target": "CSC 363", "value": 1 },
+    { "source": "MAT 150", "target": "CSC 361", "value": 1 },
+    { "source": "CSC 220(=MAT 220)", "target": "MAT 320", "value": 1 },
+    { "source": "CSC 220(=MAT 220)", "target": "MAT 325", "value": 1 },
+    { "source": "CSC 220(=MAT 220)", "target": "CSC 324", "value": 1 }
+  ]
+}

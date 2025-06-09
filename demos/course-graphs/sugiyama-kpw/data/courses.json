@@ -1,0 +1,19 @@
+{
+    "nodes": [
+      {"id": "CSC 121", "group": 1},
+      {"id": "CSC 120", "group": 1},
+      {"id": "CSC 240(=PHY 240)", "group": 1},
+      {"id": "CSC 221", "group": 1},
+      {"id": "CSC 250", "group": 1},
+      {"id": "CSC 220(=MAT 220)", "group": 1},
+      {"id": "CSC 321", "group": 1}
+
+    ],
+    "links": [
+      {"source": "CSC 121", "target": "CSC 221", "value": 3},
+      {"source": "CSC 120", "target": "CSC 221", "value": 3},
+      {"source": "CSC 240(=PHY 240)", "target": "CSC 221", "value": 6},
+      {"source": "CSC 221", "target": "CSC 321", "value": 1},
+      {"source": "CSC 220(=MAT 220)", "target": "CSC 321", "value": 1}
+    ]
+}
