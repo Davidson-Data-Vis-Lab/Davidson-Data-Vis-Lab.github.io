@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Demos
-permalink: /demo
+permalink: /demos
 ---
 # Demo Page for Course Graphs
 * [Network Option](./course-graphs/network-graph/index.html)
