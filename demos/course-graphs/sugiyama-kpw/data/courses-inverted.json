@@ -1,0 +1,207 @@
+[
+  {
+    "id": "MAT 111, MAT112",
+    "parentIds": [
+   
+    ],
+    "group":"starter"
+  },
+  {
+    "id": "MAT 113",
+    "parentIds": [
+      "MAT 111, MAT112"
+    ],
+    "group":"math1"
+  },
+  {
+    "id": "MAT 150",
+    "parentIds": [
+      "MAT 113"
+    ],
+    "group":"math1"
+  },
+  {
+    "id": "MAT 160",
+    "parentIds": [
+      "MAT 113"
+    ],
+    "group":"math1"
+  },
+  {
+    "id": "CSC 250",
+    "parentIds": [
+      "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209)"
+    ],
+    "group":"core"
+  },
+  {
+    "id": "MAT 140",
+    "parentIds": [
+      "MAT 111, MAT112"
+    ],
+    "group":"math1"
+  },
+  {
+    "id": "MAT 235",
+    "parentIds": [
+      "MAT 150"
+    ],
+    "group":"math2"
+  },
+  {
+    "id": "MAT 315",
+    "parentIds": [
+      "MAT 235"
+    ],
+    "group":"other"
+  },
+  {
+    "id": "CSC 210",
+    "parentIds": [
+      "MAT 150",
+      "MAT 140",
+      "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209)"
+    ],
+    "group":"applications"
+  },
+  {
+    "id": "CSC 361",
+    "parentIds": [
+      "MAT 150",
+      "CSC 221"
+    ],
+    "group":"applications"
+  },
+  {
+    "id": "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209)",
+    "parentIds": [
+
+    ],
+    "group":"starter"
+  },
+  {
+    "id": "CSC 221",
+    "parentIds": [
+      "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209)"
+    ],
+    "group":"core"
+  },
+  {
+    "id": "CSC 321",
+    "parentIds": [
+      "CSC 220(=MAT 220)",
+      "CSC 221"
+    ],
+    "group":"core"
+  },
+  {
+    "id": "CSC 353",
+    "parentIds": [
+      "CSC 221"
+    ],
+    "group":"systems"
+  },
+  {
+    "id": "CSC 357",
+    "parentIds": [
+      "CSC 221"
+    ],
+    "group":"systems"
+  },
+  {
+    "id": "CSC 322",
+    "parentIds": [
+      "CSC 221"
+    ],
+    "group":"other"
+  },
+  {
+    "id": "CSC 312",
+    "parentIds": [
+      "CSC 221"
+    ],
+    "group":"other"
+  },
+  {
+    "id": "CSC 371",
+    "parentIds": [
+      "CSC 221",
+      "CSC 220(=MAT 220)"
+    ],
+    "group":"applications"
+  },
+  {
+    "id": "CSC 362",
+    "parentIds": [
+      "CSC 221"
+    ],
+    "group":"applications"
+  },
+  {
+    "id": "CSC 370",
+    "parentIds": [
+      "CSC 221",
+      "CSC 220(=MAT 220)"
+    ],
+    "group":"applications"
+  },
+  {
+    "id": "CSC 363",
+    "parentIds": [
+      "DIG 245",
+      "CSC 221"
+    ],
+    "group":"applications"
+  },
+  {
+    "id": "CSC 351",
+    "parentIds": [
+      "CSC 221",
+      "CSC 250"
+    ],
+    "group":"systems"
+  },
+  {
+    "id": "CSC 359",
+    "parentIds": [
+      "CSC 221",
+      "CSC 250"
+    ],
+    "group":"systems"
+  },
+  {
+    "id": "CSC 220(=MAT 220)",
+    "parentIds": [
+      "CSC 121, CSC 120 (DIG 120), CSC 209 (BIO 209)"
+    ],
+    "group":"core"
+  },
+  {
+    "id": "MAT 320",
+    "parentIds": [
+      "CSC 220(=MAT 220)"
+    ],
+    "group":"theory"
+  },
+  {
+    "id": "MAT 325",
+    "parentIds": [
+      "CSC 220(=MAT 220)"
+    ],
+    "group":"theory"
+  },
+  {
+    "id": "CSC 324",
+    "parentIds": [
+      "CSC 220(=MAT 220)"
+    ],
+    "group":"theory"
+  },
+  {
+    "id": "DIG 245",
+    "parentIds": [
+  
+    ],
+    "group":"starter"
+  }
+]
