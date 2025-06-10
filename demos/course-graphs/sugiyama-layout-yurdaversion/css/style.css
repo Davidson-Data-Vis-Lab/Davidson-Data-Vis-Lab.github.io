@@ -2,6 +2,11 @@ html {
   height: 100%;
 }
 
+h1{
+  text-align: center;
+  font-size: large;
+}
+
 body {
   margin: 0;
   height: 100%;
@@ -18,6 +23,7 @@ svg {
   transform: translate(-50%, -50%);
   display: block;
   margin: auto;
-  width: 100%;
+  width: 200;
   height: 100%;
+  text-align: center;
 }
