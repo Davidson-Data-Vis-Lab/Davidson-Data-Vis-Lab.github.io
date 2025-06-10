@@ -76,7 +76,7 @@ function ForceGraph({
         .append("marker")
         .attr("id","arrowhead")
         .attr("viewBox","-0 -5 10 10")
-        .attr("refX",20)
+        .attr("refX",50)
         .attr("refY",0)
         .attr("orient","auto")
         .attr("markerWidth",13)
