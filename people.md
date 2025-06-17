@@ -4,8 +4,17 @@ title: People
 permalink: /people
 ---
 
-The Davidson Data Vis Lab group members for 2024 are [Yumna Ahmed](/people#yumna-ahmed-25-github), [Katherine Hu](/people#katherine-hu-25-github), [David Yoder](/people#david-yoder-26-github), and [Dr. Katy Williams](/people#dr-katy-williams-17-personal-site).
+The Davidson Data Vis Lab group member for 2025 is [Yurdanur Yolcu](/people#yurdanur-yolcu-28-github) and [Dr. Katy Williams](/people#dr-katy-williams-17-personal-site).
 
+Previous lab members:
+* 2024: [Yumna Ahmed](/people#yumna-ahmed-25-github), [Katherine Hu](/people#katherine-hu-25-personal-site), [David Yoder](/people#david-yoder-26-personal-site).
+
+## Yurdanur Yolcu ('28) ([GitHub](https://github.com/heyitsyurda/))
+
+![Github: heyitsyurda](./assets/images/github-mark.png) [heyitsyurda](https://github.com/heyitsyurda/)
+
+Hi, I'm Yurda! I'm an international student from Ankara, Turkey, and a rising sophomore at Davidson College in North Carolina, USA. I originally planned to major in Economics, but during my first year, I discovered a passion for Computer Science—something I hadn’t encountered much in my traditional, pen-and-paper high school education. Now, I'm excited to pursue a double major in Economics and Computer Science. I'm especially interested in exploring how I can combine these fields to solve real-world problems and create a positive impact.
+I'm currently working in the Data Visualization Lab with Dr. Williams, where I've gained valuable experience in data visualization, front-end development, and human-centered design. This opportunity has deepened my curiosity and made me even more excited about the possibilities ahead. I know I'm still at the beginning of a long journey, and I'm looking forward to seeing how my path in computer science will unfold.
 
 ## Yumna Ahmed ('25) ([GitHub](https://github.com/yuahmed))
 
@@ -16,10 +25,11 @@ The Davidson Data Vis Lab group members for 2024 are [Yumna Ahmed](/people#yumna
 I am Yumna F. Ahmed, and for me home is in Karachi, Pakistan. I am a rising senior at Davidson College, NC, USA. I found Davidson College as part of my search for Liberal Art institutions. Even though it had not been among my top 3 choices, I find myself very happy to be here!
 
 I study Computer Science & Digital and Screen Media Studies double major. Some classes I enjoyed at Davidson are Database Systems, Critical Web Design, Software Design and Data Visualization. All these cater to some skill building relevant to full stack development, which is my career focus. As part of the final projects for these classes, I built websites with a functional backend that can be found on my GitHub profile. 
+
 Meanwhile , I also have research experience working in machine learning  with ALPhA (2023), and in info vis with the Data Vis Lab (2024; in progress). Personally, I enjoy working in interdisciplinary fields, such as human computer interaction - for example, I enjoy questions such as “How do communities around the globe interact with technology? How have such interactions shaped their society?” So far, I have thoroughly enjoyed my projects and learnt valuable skills, which I am now considering to further improve by pursuing graduate studies. 
 
 
-## Katherine Hu ('25) ([Personal Website](https://www.yangkatherinehu.com/))
+## Katherine Hu ('25) ([Personal Site](https://www.yangkatherinehu.com/))
 
 ![Github: KatherineHu-2025](./assets/images/github-mark.png)  [KatherineHu-2025](https://github.com/KatherineHu-2025)
 
@@ -42,7 +52,7 @@ In addition to creative coding, I am a big fan of the Rubik’s Cube and average
 Concord, NC is home. I’ve lived here all my life. My parents attended Davidson, and I grew up visiting the campus and attending reunions. I never intended to go to Davidson; I knew I “wanted” to, but that was only because my parents went. However, when applying to schools, I reflected upon my brief times at Davidson, and considered how I would feel about calling it “home.” Now, approaching my Junior year, I couldn’t see myself anywhere else.
 
 
-## Dr. Katy Williams ('17) ([personal site](https://kawilliams.github.io/))
+## Dr. Katy Williams ('17) ([Personal Site](https://kawilliams.github.io/))
 
 ![Github: kawilliams](./assets/images/github-mark.png) [kawilliams](https://github.com/kawilliams)
 
