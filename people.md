@@ -13,6 +13,8 @@ Previous lab members:
 
 ![Github: heyitsyurda](./assets/images/github-mark.png) [heyitsyurda](https://github.com/heyitsyurda/)
 
+![Yurdanur Yolcu](./assets/images/yurda.jpg){:.small-image}  
+
 Hi, I'm Yurda! I'm an international student from Ankara, Turkey, and a rising sophomore at Davidson College in North Carolina, USA. I originally planned to major in Economics, but during my first year, I discovered a passion for Computer Science—something I hadn’t encountered much in my traditional, pen-and-paper high school education. Now, I'm excited to pursue a double major in Economics and Computer Science. I'm especially interested in exploring how I can combine these fields to solve real-world problems and create a positive impact.
 I'm currently working in the Data Visualization Lab with Dr. Williams, where I've gained valuable experience in data visualization, front-end development, and human-centered design. This opportunity has deepened my curiosity and made me even more excited about the possibilities ahead. I know I'm still at the beginning of a long journey, and I'm looking forward to seeing how my path in computer science will unfold.
 
