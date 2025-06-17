@@ -13,4 +13,9 @@ practices.
 
 The lab is located in Watson 232. 
 
+![Data Vis Lab members](./assets/images/dvl-2025.JPG)
+
+
+# Former Lab Pictures
+## 2024
 ![Data Vis Lab members](./assets/images/ddvl.jpg)
