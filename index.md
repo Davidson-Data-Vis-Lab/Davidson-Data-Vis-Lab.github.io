@@ -13,9 +13,11 @@ practices.
 
 The lab is located in Watson 232. 
 
-![Data Vis Lab members](./assets/images/dvl-2025.JPG)
+![Data Vis Lab members: Ellora Devulapally, Dr. Katy Williams, Taft Harrell](./assets/images/dvl-spring-26.JPG)
 
 
 # Former Lab Pictures
+## 2025
+![Data Vis Lab members: Dr. Katy Williams and Yurda Yolcu](./assets/images/dvl-2025.JPG)
 ## 2024
-![Data Vis Lab members](./assets/images/ddvl.jpg)
+![Data Vis Lab members: David Yoder, Dr. Williams, Yumna Ahmed, Katherine Hu](./assets/images/ddvl.jpg)

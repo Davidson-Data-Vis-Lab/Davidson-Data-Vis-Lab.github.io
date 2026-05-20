@@ -4,10 +4,13 @@ title: People
 permalink: /people
 ---
 
-The Davidson Data Vis Lab group member for 2025 is [Yurdanur Yolcu](/people#yurdanur-yolcu-28-github) and [Dr. Katy Williams](/people#dr-katy-williams-17-personal-site).
+The Davidson Data Vis Lab summer group members for 2026 are Kwasi Buansi, Olivia Burls, and Christian Weaver.
 
 Previous lab members:
-* 2024: [Yumna Ahmed](/people#yumna-ahmed-25-github), [Katherine Hu](/people#katherine-hu-25-personal-site), [David Yoder](/people#david-yoder-26-personal-site).
+* Spring 2026: Ellora Devulapally, Taft Harrell.
+* Summer 2025: [Yurdanur Yolcu](/people#yurdanur-yolcu-28-github).
+* Spring 2025: Katherine Hu, Evie Mulhern
+* Summer 2024: [Yumna Ahmed](/people#yumna-ahmed-25-github), [Katherine Hu](/people#katherine-hu-25-personal-site), [David Yoder](/people#david-yoder-26-personal-site).
 
 ## Yurdanur Yolcu ('28) ([GitHub](https://github.com/heyitsyurda/))
 
