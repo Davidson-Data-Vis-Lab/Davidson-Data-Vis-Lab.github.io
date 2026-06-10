@@ -12,6 +12,30 @@ Previous lab members:
 * Spring 2025: Katherine Hu, Evie Mulhern
 * Summer 2024: [Yumna Ahmed](/people#yumna-ahmed-25-github), [Katherine Hu](/people#katherine-hu-25-personal-site), [David Yoder](/people#david-yoder-26-personal-site).
 
+## Kwasi Buansi ('27) ([GitHub](https://github.com/KwBuansi))
+
+![Github: ](./assets/images/github-mark.png) [KwBuansi](https://github.com/KwBuansi)
+
+![Kwasi Buansi](./assets/images/kwasi-2026.jpg){:.small-image}  
+
+I am...
+
+## Olivia Burls ('28) ([GitHub](https://github.com/OBurls))
+
+![Github: ](./assets/images/github-mark.png) [OBurls](https://github.com/OBurls)
+
+![Olivia Burls](./assets/images/olivia-2026.jpg){:.small-image}  
+
+I am...
+
+## Christian Weaver ('29) ([GitHub](https://github.com/christianweaver))
+
+![Github: ](./assets/images/github-mark.png) [christianweaver](https://github.com/christianweaver)
+
+![Christian Weaver](./assets/images/christian-2026.jpg){:.small-image}  
+
+I am...
+
 ## Yurdanur Yolcu ('28) ([GitHub](https://github.com/heyitsyurda/))
 
 ![Github: heyitsyurda](./assets/images/github-mark.png) [heyitsyurda](https://github.com/heyitsyurda/)
@@ -61,7 +85,7 @@ Concord, NC is home. I’ve lived here all my life. My parents attended Davidson
 
 ![Github: kawilliams](./assets/images/github-mark.png) [kawilliams](https://github.com/kawilliams)
 
-![Katy Williams](./assets/images/kawilliams.jpg) 
+![Katy Williams](./assets/images/kpw-2026.jpg) 
 
 I’m an Assistant Professor of Computer Science at Davidson College. I received my Ph.D. in Computer Science from the University of Arizona in May 2023. I previously worked in the HDC lab with Kate Isaacs and Alex Bigelow. My research is in data visualization, a creative side of computer science where I can learn about interesting datasets while also building beautiful charts and graphs to aid understanding of the data. As part of my research, I have built visualizations for technical, high-performance computing data and have also published work on people’s sketches of data and how they think about a dataset. My research involves thinking about how people think about data. I like questions such as “What if instead of imagining your data as abstraction X, you tried abstraction Y?” and “In your opinion, what is the most interesting part of the data?”
 
