@@ -12,6 +12,30 @@ Previous lab members:
 * Spring 2025: Katherine Hu, Evie Mulhern
 * Summer 2024: [Yumna Ahmed](/people#yumna-ahmed-25-github), [Katherine Hu](/people#katherine-hu-25-personal-site), [David Yoder](/people#david-yoder-26-personal-site).
 
+## Kwasi Buansi ('27) ([GitHub](https://github.com/KwBuansi))
+
+![Github: ](./assets/images/github-mark.png) [KwBuansi](https://github.com/KwBuansi)
+
+![Kwasi Buansi](./assets/images/kwasi-2026.jpg){:.small-image}  
+
+I am...
+
+## Olivia Burls ('28) ([GitHub](https://github.com/OBurls))
+
+![Github: ](./assets/images/github-mark.png) [OBurls](https://github.com/OBurls)
+
+![Olivia Burls](./assets/images/olivia-2026.jpg){:.small-image}  
+
+I am...
+
+## Christian Weaver ('29) ([GitHub](https://github.com/christianweaver))
+
+![Github: ](./assets/images/github-mark.png) [christianweaver](https://github.com/christianweaver)
+
+![Christian Weaver](./assets/images/christian-2026.jpg){:.small-image}  
+
+I am...
+
 ## Yurdanur Yolcu ('28) ([GitHub](https://github.com/heyitsyurda/))
 
 ![Github: heyitsyurda](./assets/images/github-mark.png) [heyitsyurda](https://github.com/heyitsyurda/)
