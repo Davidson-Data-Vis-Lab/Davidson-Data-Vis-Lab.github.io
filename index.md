@@ -13,7 +13,7 @@ practices.
 
 The lab is located in Watson 232. 
 
-![Data Vis Lab members: Christian Weaver, Olivia Burls, Kwasi Buansi, Dr. Katy Williams](./assets/images/dvl-2026.jpg)
+![Data Vis Lab members: Christian Weaver, Olivia Burls, Kwasi Buansi, Dr. Katy Williams](./assets/images/dvl-2026.JPG)
 *Data Vis Lab members: Christian Weaver, Olivia Burls, Kwasi Buansi, Dr. Katy Williams*
 
 
