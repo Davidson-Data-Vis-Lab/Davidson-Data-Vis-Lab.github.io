@@ -18,7 +18,11 @@ Previous lab members:
 
 ![Kwasi Buansi](./assets/images/kwasi-2026.jpg){:.small-image}  
 
-I am...
+My name is Kwasi Buansi, and I am a Computer Science major and Data Science minor at Davidson College. I initially intended to study biology, but a lack of clear direction combined with my prior exposure to technology led me to switch to computer science during the summer after my sophomore year. Some of the most impactful courses I’ve taken include Software Development with Dr. Lim, Human-Computer Interaction and Data Visualization with Dr. Williams, and Computer Organization with Dr. Nemitz.
+Driven by a personal passion for art—and a skepticism toward AI-generated imagery—I recently built a website featuring an API that detects AI-generated images, applying the web design skills I developed in my software development class. My interest in gaming has also inspired me to experiment with assembly language and hex editing. Outside of academics, I have consistently worked at the Davidson College Farm throughout my college career.
+
+LinkedIn: www.linkedin.com/in/kwasi-buansi-bb21a5236
+Portfolio Site: https://kwbuansi.github.io/Portfolio/index.html 
 
 ## Olivia Burls ('28) ([GitHub](https://github.com/OBurls))
 
