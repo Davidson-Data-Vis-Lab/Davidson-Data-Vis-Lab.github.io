@@ -30,7 +30,9 @@ Portfolio Site: https://kwbuansi.github.io/Portfolio/index.html
 
 ![Olivia Burls](./assets/images/olivia-2026.jpg){:.small-image}  
 
-I am...
+Hi, I’m Olivia Burls! I am from Dallas, Texas, and a rising junior at Davidson College in North Carolina. Although I did not initially plan to major in Computer Science, I enjoyed its problem-solving, creative, and analytical nature. This encouraged me to pursue a double major in Economics and Computer Science. I am currently working in the Data Visualization Lab with Dr. Williams. Through this experience, I have transformed technical concepts into interactive visualizations, growing my skills in design and front-end development. Beyond the classroom and lab, I have served on the executive board of Women in Computer Science at Davidson (2025-2026). I am passionate about creating spaces for women in fields where they are largely underrepresented, and I value encouraging greater participation and community within computer science. While I am still exploring the different areas of computer science, I am interested in how computational tools can be applied to finance and economics to support decision-making and solve real-world problems. I am excited to continue discovering how these fields intersect and where they will lead me in the future.
+
+LinkedIn: www.linkedin.com/in/olivia-burls-83151b29b
 
 ## Christian Weaver ('29) ([GitHub](https://github.com/christianweaver))
 
