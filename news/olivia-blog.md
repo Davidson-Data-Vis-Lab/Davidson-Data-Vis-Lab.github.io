@@ -4,7 +4,7 @@ date:   2024-06-05 15:44:50 -0400
 permalink: /news/template
 ---
 
-#### by [Olivia Burls](/people#dr-katy-williams-17-personal-site)
+#### by [Olivia Burls](/people#olivia-burls-28-github)
 
 While compilers are incredibly useful, debugging them is extremely difficult and requires parsing through thousands of lines of code and trace output. Developers use these compilers to help run web browsers like Google Chrome, so you can see how important a working compiler is. Developers look at graph phases over time (produced by the compiler) and compare them. While tools like Google V8’s Turbolizer or Firefox Spidermonkey’s iongraph help visualize these graphs, they require additional work from the developers. This summer, I began working on this existing research to continue to build a solution. In this work, we created a multi-view visualization tool that allows developers to compare two phases at once and gives them an overview to potentially help spot buggy code faster.
 
