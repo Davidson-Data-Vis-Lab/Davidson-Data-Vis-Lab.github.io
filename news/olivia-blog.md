@@ -8,20 +8,22 @@ permalink: /news/jit-vis-dual-view
 
 #### by [Olivia Burls](/people#olivia-burls-28-github)
 
-While compilers are incredibly useful, debugging them is extremely difficult and requires parsing through thousands of lines of code and trace output. Developers use these compilers to help run web browsers like Google Chrome. So you can see how important a working compiler is. Developers look at graph phases over time (produced by the compiler) and compare them. While tools like Google V8’s Turbolizer or Firefox Spidermonkey’s iongraph help visualize these graphs, they require additional work from the developers. This summer, I began working on this existing research to continue to build a solution. In this work, we created a multi-view visualization tool that allows developers to compare two phases at once and gives them an overview to potentially help spot buggy code faster.
+ Developers use compilers to help run web browsers like Google Chrome, so you can see how important a working compiler is. While compilers are incredibly useful, debugging them is extremely difficult and requires parsing through thousands of lines of trace output and compiler code. Compiler developers look at graph phases over time (produced by the compiler) and compare them. While tools like Google V8’s Turbolizer or Firefox Spidermonkey’s iongraph help visualize these graphs, they require additional work from the developers. This summer, I began working on this existing research to continue to build a solution. In this work, we created a multi-view visualization tool that allows developers to compare two phases at once and gives them an overview to potentially help spot buggy code faster.
 
 ### What Are We Actually Tackling?
-In short, compilers translate human code (a JavaScript file) into machine code (code the computer understands) so it can perform the tasks. An Ahead-of-time compiler runs before the program executes. JIT compilers, or Just-In-Time compilers, perform optimizations while the program runs. This type of compiler is often seen in web browsers like Google’s search engine. Compilers produce an Intermediate Representation (IR) that developers use to debug their code. Each IR is an optimization phase that the compiler produces as it gets closer to the machine code, think of this as an intermediate step between human code and machine code. These IR’s are often visualized in a Sea-of-Nodes or Control Flow Graph (CFG) layout, and the compiler can produce multiple phases.
+In short, compilers translate human code (a JavaScript file) into machine code (code the computer understands) so it can perform the tasks. An ahead-of-time compiler runs before the program executes. JIT compilers, or Just-In-Time compilers, perform optimizations while the program runs. This type of compiler is often seen in web browsers like Google Chrome or Mozilla Firefox. Compilers produce an Intermediate Representation (IR), a graph of nodes and edges that represents how the compiler converts the high-level language into machine code. In each optimization phase, the compiler produces an IR that improves the efficiency of the code as it gets closer to the machine code. These IR’s are often visualized in a Sea-of-Nodes or Control Flow Graph (CFG) layout, and the compiler can produce multiple optimization phases, so this means we have multiple graphs for a single JavaScript file.
 
 ![SoN and CFG graph layout](./images/olivia-blog-images/SoN-CFG.png)
-*SoN (left) and CFG (right) graph layout*
+
+*A Sea-of-Nodes (SoN) graph on the left and a control flow graph (CFG) on the right.*
 
 A single IR phase can be difficult to parse because developers have to comb through thousands of lines of a JSON file, a data structure that holds all relevant optimization information. This is where tools such as Google V8’s Turbolizer and Firefox’s iongraph come into play. They visualize these IR phases in its respective layout (SoN or CFG), providing developers with a tool to examine nodes or blocks that typically hold the bug. Developers usually load a JSON(s) into the tool and split their screen so they can see two consecutive phases side by side to track any node or block changes. Developers split their screen because it allows them to look at how optimization phases change overtime. They also review the raw text that is in a JSON file.
 
-![The length a JSON file could have](./images/olivia-blog-images/sample-JSON.png)
-*An example of how long a JSON file could be*
+![The length a JSON file could have: this file has over 8,500 lines.](./images/olivia-blog-images/sample-JSON.png)
 
-Noting how all current tools do not have support for phase-by-phase or file-by-file comparison (eliminating the need to pull up the tool twice and splitting your screen), our goal for the summer was to build a visualization tool that supports the two types of IR graphs (SoN and CFG). Our tool shows phase-by-phase comparison and an overview that allows developers to spot potential “buggy” code, streamlining the entire process.
+*An example of how long a JSON file could be: this file has over 8,500 lines.*
+
+Current tools do not have support for phase-by-phase or file-by-file comparison, so developers have to pull up the tool twice and splitting their screen to do any kind of comparison. Our goal for the summer was to build a visualization tool that supports the two types of IR graphs (SoN and CFG), shows phase-by-phase comparison, an overview that allows developers to spot potential “buggy” code, streamlining the debugging process for developers.
 
 ### Getting Caught Up
 
