@@ -1,7 +1,9 @@
+---
 layout: blog
-title:  JITVis Summer Research: Creating the Dual View
+title:  JITVis Summer Research
+subtitle: Creating the Dual View
 date:   2024-06-05 15:44:50 -0400
-permalink: /news/template
+permalink: /news/jit-vis-dual-view
 ---
 
 #### by [Olivia Burls](/people#olivia-burls-28-github)
