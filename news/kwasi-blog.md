@@ -58,8 +58,6 @@ My findings were consistent with Olivia’s, making us confident enough to draft
 
 *Dual-view mockup. On the left side (1), there are two user-inputted IR graphs. The legend to the left side of the leftmost graph indicates what colors represent which type of node. Above the graph is the same filtering option as in the heatmap view. Above that is a search bar that allows users to search for a specific node to highlight. The right side (2) shows the side panel that appears on the right side when clicking a node. In the side bar, you can see which line of code corresponds to that specific node, and an entire history of that nodes activity throughout all IR phases. Clicking on the green “GO” button automatically navigates to the corresponding phase. Below the node history section, you can see all nodes that link to the selected node in the current phase, and an overall summary of the phase for the selected node.*
 
-#### Minigraph View
-
 ![Minigraph mockup.](./images/kwasi-blog-images/minigraph-mockup.png)
 
 *Minigraph mockup. This view contains the same filtering and grid layout as the heatmap view. Instead of a suspiciousness score, each cell is encoded with its own graph that is a miniaturized graph of the corresponding cell’s IR (i.e. the minigraph in the cell located at (PoC1, 1) is the first phase of PoC1’s graph).*
