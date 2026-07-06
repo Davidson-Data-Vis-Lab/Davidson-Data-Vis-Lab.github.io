@@ -21,8 +21,9 @@ Previous lab members:
 My name is Kwasi Buansi, and I am a Computer Science major and Data Science minor at Davidson College. I initially intended to study biology, but a lack of clear direction combined with my prior exposure to technology led me to switch to computer science during the summer after my sophomore year. Some of the most impactful courses I’ve taken include Software Development with Dr. Lim, Human-Computer Interaction and Data Visualization with Dr. Williams, and Computer Organization with Dr. Nemitz.
 Driven by a personal passion for art—and a skepticism toward AI-generated imagery—I recently built a website featuring an API that detects AI-generated images, applying the web design skills I developed in my software development class. My interest in gaming has also inspired me to experiment with assembly language and hex editing. Outside of academics, I have consistently worked at the Davidson College Farm throughout my college career.
 
-LinkedIn: www.linkedin.com/in/kwasi-buansi-bb21a5236
-Portfolio Site: https://kwbuansi.github.io/Portfolio/index.html 
+* [Kwasi's LinkedIn](www.linkedin.com/in/kwasi-buansi-bb21a5236)
+
+* [Kwasi's Portfolio Site](https://kwbuansi.github.io/Portfolio/index.html ) 
 
 ## Olivia Burls ('28) ([GitHub](https://github.com/OBurls))
 
@@ -32,7 +33,7 @@ Portfolio Site: https://kwbuansi.github.io/Portfolio/index.html
 
 Hi, I’m Olivia Burls! I am from Dallas, Texas, and a rising junior at Davidson College in North Carolina. Although I did not initially plan to major in Computer Science, I enjoyed its problem-solving, creative, and analytical nature. This encouraged me to pursue a double major in Economics and Computer Science. I am currently working in the Data Visualization Lab with Dr. Williams. Through this experience, I have transformed technical concepts into interactive visualizations, growing my skills in design and front-end development. Beyond the classroom and lab, I have served on the executive board of Women in Computer Science at Davidson (2025-2026). I am passionate about creating spaces for women in fields where they are largely underrepresented, and I value encouraging greater participation and community within computer science. While I am still exploring the different areas of computer science, I am interested in how computational tools can be applied to finance and economics to support decision-making and solve real-world problems. I am excited to continue discovering how these fields intersect and where they will lead me in the future.
 
-LinkedIn: www.linkedin.com/in/olivia-burls-83151b29b
+* [Olivia's LinkedIn](www.linkedin.com/in/olivia-burls-83151b29b)
 
 ## Christian Weaver ('29) ([GitHub](https://github.com/christianweaver))
 
@@ -71,6 +72,7 @@ Meanwhile , I also have research experience working in machine learning  with AL
 ![Katherine Hu](./assets/images/kahu.jpg)  
 
 Hi, I’m Katherine! I’m an international student from Shanghai, China, majoring in Computer Science with a minor in Mathematics. Initially, I planned to study Biology during my freshman year, but I discovered a strong passion for Computer Science while taking Data Structures. This led me to declare Computer Science as my major.
+
 During my sophomore year, I worked as an embedded tutor for CSC121: Programming and Problem Solving, and for one semester, I tutored CSC321: Analysis of Algorithms. These experiences enhanced my problem-solving and debugging skills. In the summer of my sophomore year, I conducted research on concurrent data structures with Dr. Mendes, and I am currently working in the Data Visualization Lab with Dr. Williams. I view Computer Science as a versatile toolbox that intersects with all my areas of interest, enabling me to create fascinating tools across various fields. I am particularly captivated by practical applications, as I can observe tangible improvements at every step. Previously, I have built machine learning models to recognize American Sign Language letters and developed a classical music concert database with a front-end website.
 In my spare time, I enjoy attending musicals and have been taking singing classes since my sophomore year. I also love traveling, as it allows me to learn about different cultures, meet new people, and taste local cuisine.
 

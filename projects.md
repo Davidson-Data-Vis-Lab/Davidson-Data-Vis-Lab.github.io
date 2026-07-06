@@ -3,6 +3,11 @@ layout: page
 title: Projects
 permalink: /projects
 ---
+
+# JITVis: Visualizing JIT compiler intermediate representation graphs
+This work is ongoing with Kwasi Buansi, Olivia Burls, Robby Votta, and Dr. Terrence Lim during Summer 2026. 
+* View [Olivia's blog post](/news/jit-vis-dual-view) about her experience
+
 # [Visualizing course dependencies in the computer science major](/project/course-graph)
 
 Computer Science course dependency graph: [here](/demos/course-graphs/cs-final-graph/index.html)
