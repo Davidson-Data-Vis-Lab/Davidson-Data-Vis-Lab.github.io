@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  JITVis Summer Research
-subtitle: Interactive Compiler Debugger Tool by Dr. Katy Williams, Olivia Burls, and Kwasi Buansi
+subtitle: Interactive Compiler Debugger Tool: Heatmap & Other Components.
 date:   2025-07-07 10:44:50 -0400
 permalink: /news/jit-vis-heatmap
 ---
@@ -18,18 +18,18 @@ This is where our work comes in. As newcomers to compiler development, we studie
 
 ### Background
 
-JIT compilers process human-readable code into machine code in distinct **phases**. These phases each contain **Intermediate Representations (IRs)**. IRs are essentially a transitory state used by the compiler to transform the source code into optimized machine code. IRs are represented as graphs, such as **Sea-of-Nodes (SoN)** or **Control Flow (CFG)** graphs. Google developers currently visualize these changes by using V8’s `--trace-turbo` command on JavaScript files to produce a .JSON trace file to be uploaded to Turbolizer. Iongraph is an alternative that only supports the CFG layout. Both show each IR phase’s respective graph, and Turbolizer specifically has the added benefit of source-code-to-node linkage.
+JIT compilers process human-readable code into machine code in distinct **phases**. These phases each contain **Intermediate Representations (IRs)**. IRs are essentially a transitory state used by the compiler to transform the source code into optimized machine code. IRs are represented as graphs containing nodes and edges. Nodes represent data points, and edges represent data flow and dependenceis between those points. IRs are represented in various graph formats, such as **Sea-of-Nodes (SoN)** or **Control Flow (CFG)** graphs. V8 developers currently visualize these changes as graphs by using V8’s `--trace-turbo` command on JavaScript files to produce a .JSON trace file to be uploaded to the visualization tool, Turbolizer. Iongraph is Firefox's visualization tool that displays SpiderMonkey graph outputs in the CFG layout. Both show each IR phase’s respective graph, and Turbolizer specifically has the added benefit of source-code-to-node linkage.
 
 ![Turbolizer SoN, CFG, and iongraph CFG displayed from left to right.](./images/kwasi-blog-images/turbolizer-iongraph-comparison.png)
 
 *From left to right: a SoN graph in Turbolizer, a CFG in Turbolizer, and a CFG visualized in iongraph. iongraph only supports the CFG format.*
 
-However, there are a few key flaws with both tools:
+However, these tools have some weaknesses:
 
 - Even though Turbolizer and iongraph save users the trouble of reading thousands of lines of text outputs, they require debuggers to parse several phases, looking for specific nodes and edges that may cause bugs.
-- In data visualization, giving users multiple different ways to view the same data often helps in generating insight, hence data abstraction is useful. However, Turbolizer and iongraph only provide users with each phase’s raw IR data.
-- Compiler debuggers will often mutate code to simulate and pinpoint specific compiler bugs. When using several mutations, the debugger will now have to compare data across phases and files. Neither tool supports multiple file inputs–a user would have to upload each mutation in a separate Turbolizer or iongraph instance.
-- Debuggers will often switch between viewing the raw JSON text dump and the compiler graphs, which can be tedious. Neither tool centralizes context switching.
+- In data visualization data abstraction is useful because giving users multiple different ways to view the same data often helps in generating insights. Turbolizer and iongraph show both source code and graph outputs, but lack any higher level data abstraction that may be used to quickly glean insights on several graph phases.
+- Compiler debuggers will often mutate code to triangulate specific compiler bugs. When using several mutations, the debugger will now have to compare the subtle differences across phases and files. Neither tool supports multiple file inputs–a user would have to upload each mutation in a separate Turbolizer or iongraph instance.
+- Debuggers will often switch between viewing the raw JSON text dump and the compiler graphs, which can be tedious. Neither tool supports context switching.
 - A V8 compiler expert we interviewed emphasized that Turbolizer can be annoying to use due to long load times when uploading larger graphs due to poor optimization.
 
 Based on conversations with Dr. Lim, a compiler expert at Davidson, we created two overviews for JITVis that allow debuggers to quickly locate potentially problematic compiler phases, and an additional detail view containing a maximum of two IR graphs of the user’s choosing for lower level, phase-by-phase analysis.
@@ -54,7 +54,7 @@ My findings were consistent with Olivia’s, making us confident enough to draft
 
 *Heatmap mockup. In the grid, rows represent file names, and columns represent phase numbers. Each cell is encoded using a metric of suspiciousness (i.e., how likely it is that that specific phase in its corresponding file is buggy). A tooltip appears when hovering over a cell containing the indicated fields. The user can filter by a specific file and/or phase using the topmost “filters” dropdowns.*
 
-![Dual-view mockup.](./images/kwasi-blog-images/dual-view-mockup.png)
+![Dual-view mockup.](./olivia-blog-images/dualView.png)
 
 *Dual-view mockup. On the left side (1), there are two user-inputted IR graphs. The legend to the left side of the leftmost graph indicates what colors represent which type of node. Above the graph is the same filtering option as in the heatmap view. Above that is a search bar that allows users to search for a specific node to highlight. The right side (2) shows the side panel that appears on the right side when clicking a node. In the side bar, you can see which line of code corresponds to that specific node, and an entire history of that nodes activity throughout all IR phases. Clicking on the green “GO” button automatically navigates to the corresponding phase. Below the node history section, you can see all nodes that link to the selected node in the current phase, and an overall summary of the phase for the selected node.*
 
@@ -92,7 +92,7 @@ The intended workflow is as follows:
 
 Currently, our main tool consists of the dual view and the heatmap view, the latter of which I developed. I implemented a feature in which users can select a “baseline” file to compare differences in nodes per phase with, similar to what a compiler developer might do when searching for suspicious mutated files. The first phase in all other files that differs from the baseline will be highlighted in yellow, making it easier to track diverges in optimization. 
 
-While Dr. Lim and Robbie are still working on a more robust metric to determine the suspiciousness of cells in the heatmap, we realized the coarse metric we are currently using actually had a use, as it was successful in determining the first file with relevant differences from the baseline in one example. Furthermore, I added a feature that allows users to highlight files of interest, and sort files based on how much or how little they diverge from the baseline, and a button to filter out all non-highlighted files.
+We are currently using the number of changes made per phase as a prototype encoding for the heatmap. While Dr. Lim and Robbie are still working on a more robust metric to determine the suspiciousness of cells, we realized the coarse metric we are currently using actually had a use, as it was successful in determining the first file with relevant differences from the baseline in one example. Furthermore, I added a feature that allows users to highlight files of interest, and sort files based on how much or how little they diverge from the baseline, and a button to filter out all non-highlighted files.
 
 ### Minigraph Proof-of-Concept
 
