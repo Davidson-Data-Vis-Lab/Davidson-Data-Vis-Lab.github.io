@@ -40,9 +40,9 @@ To start, I needed to catch up on what had already been done thus far. Taft and 
 
 ![Taft and Ellora’s first prototype visualization.](./images/kwasi-blog-images/taft-ellora-prototype.jpg)
 
-*Taft and Ellora’s first prototype visualization. To the left is the static view, which displays nodes as numbered circles and their dependencies as edges, similar to Turbolizer but in an unchanging grid. A tooltip to the right of the grid provides details on the selected node. To the right is the force-directed view, which uses force-directed drawing to display nodes and edges.*
+*Taft and Ellora’s first prototypes. To the left is the static view, which was used in initial stages for making sense of the data. This view displays nodes as numbered circles and their dependencies as edges, similar to Turbolizer but in an unchanging grid. A tooltip to the right of the grid provides details on the selected node. To the right is the force-directed view, which uses force-directed drawing to display nodes and edges.*
 
-The force-directed layout fell victim to the hairball effect—the volume and density of the nodes and edges caused the diagram to look unreadable in certain phases, while the static view did not provide any convenient sorting of node positions to make tracing dependencies easier. As such, we decided to abandon the first prototype in favor of something more usable. We conducted a short literature review to find the most ideal graph layouts. My area of focus was on representing changes over time, which in our case meant changes made to IRs across phases. My findings included:
+The force-directed layout fell victim to the hairball effect -- the volume and density of the nodes and edges caused the diagram to look unreadable in certain phases. As such, we decided to abandon the first prototype in favor of something more usable. We conducted a short literature review to find the most ideal graph layouts. My area of focus was on representing changes over time, which in our case meant changes made to IRs across phases. My findings included:
 
 - There are two main schools of thought when it comes to representing change over time–representation through animation, and representation through small multiples. Small multiples refers to representing changes made over time side-by-side, frame-by-frame. Small multiples tend to be more beneficial for data analysis than animation.
 - Interactivity was consistently found to improve insight-finding.
@@ -52,7 +52,7 @@ My findings were consistent with Olivia’s, making us confident enough to draft
 
 ![Heatmap mockup.](./images/kwasi-blog-images/heatmap-mockup.png)
 
-*Heatmap mockup. In the grid, rows represent file names, and columns represent phase numbers. Each cell is encoded using a metric of suspiciousness (how likely it is that that specific phase in its corresponding file is buggy). A tooltip appears when hovering over a cell containing the indicated fields. The user can filter by a specific file and/or phase using the topmost “filters” dropdowns.*
+*Heatmap mockup. In the grid, rows represent file names, and columns represent phase numbers. Each cell is encoded using a metric of suspiciousness (i.e., how likely it is that that specific phase in its corresponding file is buggy). A tooltip appears when hovering over a cell containing the indicated fields. The user can filter by a specific file and/or phase using the topmost “filters” dropdowns.*
 
 ![Dual-view mockup.](./images/kwasi-blog-images/dual-view-mockup.png)
 
@@ -60,7 +60,7 @@ My findings were consistent with Olivia’s, making us confident enough to draft
 
 ![Minigraph mockup.](./images/kwasi-blog-images/minigraph-mockup.png)
 
-*Minigraph mockup. This view contains the same filtering and grid layout as the heatmap view. Instead of a suspiciousness score, each cell is encoded with its own graph that is a miniaturized graph of the corresponding cell’s IR (i.e. the minigraph in the cell located at (PoC1, 1) is the first phase of PoC1’s graph).*
+*Minigraph mockup. This view contains the same filtering and grid layout as the heatmap view. Instead of a suspiciousness score, each cell is contains its own graph that is a miniaturized graph of the corresponding cell’s IR (i.e., the minigraph in the cell located at (PoC1, 1) is the first phase of PoC1’s graph).*
 
 After designing our mockups, we presented them to Dr. Lim, who liked our idea of an easier way to compare two IR graphs, and our overviews which can be used to more easily find suspicious files for further analysis. After receiving the green light from Dr. Williams, we began developing our prototype visualization.
 
@@ -70,27 +70,27 @@ We present JITVis–a tool designed to streamline the JIT compiler debugging pro
 
 ![JITVis user flow.](./images/kwasi-blog-images/user-flow.png)
 
-*JITVis user flow. (1) The user starts with a JavaScript file. They may run a fuzzing algorithm to produce mutants to be uploaded into JITVis. (2) The user runs the --trace-turbo command to output JSON trace files. (3) Upload the JSON traces into the program to produce the visualizations in (4), (5), and (6).*
+*JITVis user flow. (1) The user starts with a JavaScript file. They may run a fuzzing algorithm to produce mutated files to be uploaded into JITVis. (2) The user runs the `--trace-turbo` command to output JSON trace files. (3) The user uploads the JSON traces into the program to produce the visualizations in (4), (5), and (6).*
 
 ![JITVis dual view.](./images/kwasi-blog-images/dual-view.png)
 
-*JITVis dual view, which uses the Sugiyama layout and d3.js to render turbolizer JSON graphs. Each node has a color encoding, indicating whether it was newly made, killed, or previously dead in the selected phase. The edge types are encoded by the type of line used to represent control flow. Both dropdowns allow users to switch between the inputted files and phases. Olivia was responsible for the dual view.*
+*JITVis dual view, which uses the Sugiyama layout and d3.js to render V8 trace graphs from JSON files. Each node has a color encoding, indicating whether it was newly made, killed, or previously dead in the selected phase. The edge types are encoded by the type of line used to represent control flow. Both dropdowns allow users to switch between the inputted files and phases. Olivia was responsible for the dual view.*
 
 ![JITVis heatmap view.](./images/kwasi-blog-images/heatmap.png)
 
-*JITVis heatmap view. The heatmap is a grid in which rows represent each input file, and columns represent each phase. The color reflects the total node and edge changes from the previous phase. Initially, we only intended our coarse metric to be used for demonstration purposes. The heatmap allows the user to set a baseline–a specific file to use as a benchmark which all other files are compared to. The first phase that differs from the benchmark is highlighted per file.*
+*JITVis heatmap view. The heatmap is a grid in which rows represent each input file, and columns represent each phase. The color reflects the total node and edge changes from the previous phase. Initially, we only intended our coarse metric to be used for demonstration purposes. The heatmap allows the user to set a baseline – a specific file to use as a benchmark which all other files are compared to. The first phase that differs from the benchmark is highlighted per file.*
 
 ![Proof-of-concept for the minigraph view.](./images/kwasi-blog-images/minigraphs.png)
 
-*Proof-of-concept for the minigraph view. Shows a miniaturized version of all IR phase graphs across all selected files.*
+*Proof-of-concept for the minigraph view. Shows a miniaturized version of all IR phase graphs across all selected files. Here, the top row contains phase graphs from one file, and the bottom row contains phase graphs from a slightly different file. The graphs are identical for the first three graphs, then differ starting from the fourth phase onward.*
 
 The intended workflow is as follows:
 
-**Upload mutant traces → scan the heatmap or minigraph view for divergence → open dual view at that file/phase using linked navigation → inspect node history**
+**Upload mutated traces → scan the heatmap or minigraph view for divergence → open dual view at that file/phase using linked navigation → inspect node history**
 
 ### Creating the Heatmap
 
-Currently, our main tool consists of the dual view and the heatmap view, the latter of which I was tasked with the development of. I implemented a feature in which users can select a “baseline” file to compare differences in nodes per phase with, similar to what a compiler developer might do when searching for suspicious mutant files. The first phase in all other files that differs from the baseline will be highlighted in yellow, making it easier to track diverges in optimization. 
+Currently, our main tool consists of the dual view and the heatmap view, the latter of which I developed. I implemented a feature in which users can select a “baseline” file to compare differences in nodes per phase with, similar to what a compiler developer might do when searching for suspicious mutated files. The first phase in all other files that differs from the baseline will be highlighted in yellow, making it easier to track diverges in optimization. 
 
 While Dr. Lim and Robbie are still working on a more robust metric to determine the suspiciousness of cells in the heatmap, we realized the coarse metric we are currently using actually had a use, as it was successful in determining the first file with relevant differences from the baseline in one example. Furthermore, I added a feature that allows users to highlight files of interest, and sort files based on how much or how little they diverge from the baseline, and a button to filter out all non-highlighted files.
 
@@ -100,9 +100,9 @@ While the minigraph view has not been incorporated in the main tool yet, I devel
 
 ### Conclusion & Next Steps
 
-Throughout the summer, we drafted and developed JITVis to address current gaps in Google V8’s Turbolizer, and Firefox SpiderMonkey’s iongraph. While these tools are invaluable for inspecting changes made in individual compiler phases, they don’t fully address the workflow many compiler experts use, which includes scanning several mutant files across many phases simultaneously. JITVis addresses the previous tool’s weak points by providing users with three different views–a dual view, heatmap, and minigraph view. The latter two are intended to quickly glean information from a high-level overview of the data, while the former is intended for a lower level, more detailed IR analysis, much like previous tools. We transitioned from Taft and Ellora’s prototype force-directed layout, into a much more readable and interactive visualization tool, grounded by data visualization research. Our interview with a V8 expert highlighted that our contributions align with Google’s own workflow.
+Throughout the summer, we drafted and developed JITVis to address current gaps in Google V8’s Turbolizer, and Firefox SpiderMonkey’s iongraph. While these tools are invaluable for inspecting changes made in individual compiler phases, they don’t fully address the workflow many compiler experts use, which includes scanning several mutated files across many phases simultaneously. JITVis addresses the previous tool’s weak points by providing users with three different views – a dual view, heatmap, and minigraph view. The latter two are intended to quickly glean information from a high-level overview of the data, while the former is intended for a lower level, more detailed IR analysis, much like previous tools. We transitioned from Taft and Ellora’s prototype force-directed layout, into a much more readable and interactive visualization tool, grounded by data visualization research and conversations with experts. Our interview with a V8 expert highlighted that our contributions align with V8's own workflow.
 
-As a beginner to the subject, I learned the basics of the internals and workflow of compiler debugging. I learned of the process in which V8 processes and optimizes code. Workflow was another crucial aspect of this project. Each visualization doesn’t live in a vacuum–we needed all of the parts of our project to line up seamlessly. We also could not rely solely on what we found intuitive–our project required several interviews with multiple stakeholders, including Google employees.
+As a beginner to the subject, I learned the basics of the internals and workflow of compiler debugging. I learned of the process in which V8 processes and optimizes code. Workflow was another crucial aspect of this project. Each visualization doesn’t live in a vacuum – we needed all of the parts of our project to line up seamlessly. We also could not rely solely on what we found intuitive – our project required several interviews with multiple stakeholders, including V8 employees.
 
 However, JITVis is still in its infancy. There are several additional features we intend to either complete or add, including:
 
