@@ -1,7 +1,7 @@
 ---
 layout: blog
 title:  JITVis Summer Research
-subtitle: Interactive Compiler Debugger Tool: Heatmap & Other Components.
+subtitle: "Interactive Compiler Debugger Tool: Heatmap & Other Components"
 date:   2025-07-07 10:44:50 -0400
 permalink: /news/jit-vis-heatmap
 ---
