@@ -41,7 +41,9 @@ Hi, I’m Olivia Burls! I am from Dallas, Texas, and a rising junior at Davidson
 
 ![Christian Weaver](./assets/images/christian-2026.jpg){:.small-image}  
 
-I am...
+Hi, I’m Christian. I am a rising sophomore from Northern Virginia, majoring in Computer Science with an Africana Studies minor. What draws me the most to CS is that every problem is like a puzzle, and I love bringing my unique thinking to find innovative solutions. Outside the lab, I enjoy taking in all forms of creative expression, namely music, fashion, film, and photography. I’m always looking for ways to let those interests inspire my projects, and working with Dr. Williams in the Data Visualization Lab this summer has provided me with the opportunity to grow both creatively and technically. While I’m still exploring the many other directions this field has to offer, my time in the lab has already given me a strong foundation and a clearer sense of what excites me.
+
+* [Christian's LinkedIn](www.linkedin.com/in/christianweaver52)
 
 ## Yurdanur Yolcu ('28) ([GitHub](https://github.com/heyitsyurda/))
 
