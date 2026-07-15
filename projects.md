@@ -11,9 +11,9 @@ This work is ongoing with Kwasi Buansi, Olivia Burls, Robby Votta, and Dr. Terre
 
 # [Visualizing course dependencies in the computer science major](/project/course-graph)
 
-Computer Science course dependency graph: [here](/demos/course-graphs/cs-final-graph/index.html)
-
-The code repository: [here](https://github.com/heyitsyurda/Forced-Graph-)
+Course dependency graphs: [here](https://davidson-data-vis-lab.github.io/major-course-graph/)
+* Old demo graphs: [here](/demos/course-graphs/cs-final-graph/index.html)
+* The code repository: [here](https://github.com/Davidson-Data-Vis-Lab/major-course-graph)
 
 
 # [Vis + Serendipity](/project/vis+serendipity)
